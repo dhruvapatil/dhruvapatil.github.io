@@ -60,6 +60,18 @@ a:focus{
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Raleway', sans-serif;
 }
+
+
+h5{
+	margin-bottom: 30px;
+}
+h4{
+	margin-top: 0px;
+	margin-bottom: 1px;
+}
+h3{
+	color: #000;
+}
 h2 {
 	color: #fff;  
 	font-size: 30px;
@@ -72,7 +84,9 @@ img{
  border:none;
 }
 
-
+.image-circle{
+	border-radius: 50%;
+}
 /* Preloader */
 
 #preloader {
@@ -424,7 +438,7 @@ img{
 .title-area {
 	display: inline;
 	float: left;
-	padding: 0 172px;
+	padding: 0 150px;
 	position: relative;
 	text-align: center;
 	width: 100%;
@@ -532,7 +546,7 @@ img{
 .about-right {
 	display: inline;
 	float: left;
-	padding-left: 85px;
+	padding-left: 10px;
 	padding-top: 20px;
 	width: 100%;
 }
